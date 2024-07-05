@@ -1,0 +1,313 @@
+.container{
+    padding: 20px 6%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+/* ----------------------------------- START of left container ---------------------------------- */
+
+ .left-container{
+    flex-basis: 25%;
+    align-self: flex-start;
+    border-radius: 8px;
+
+}
+
+ .profile-box{
+    background: #fff;
+}
+
+
+.profile-info img{
+    width: 100px;
+    border-radius: 50%;
+    background: #fff;
+    padding: 5px;
+    margin-top: -50px;
+    margin-left: 90px;
+
+}
+
+.bg-image{
+    height: 100px;
+    width:310px;
+    
+}
+.profile-info h1{
+    font-size: 20px;
+    font-weight: 600;
+    color: #222;
+    margin-left: 70px;
+    
+}
+
+.profile-info h4{
+    font-size: 14px;
+    font-weight: 500;
+    color: #777;
+    margin-left: 50px;
+}
+.profile-info ul{
+    list-style: none;
+    margin: 20px 0px;
+    border-top: 1px solid #ccc;
+
+}
+
+.profile-info ul li{
+    width: 100%;
+    margin: 5px 0px;
+    font-size: 13px;
+}
+.profile-info ul li span{
+    float: right;
+    color: #045be6;
+}
+.profile-link{
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #ccc;
+}
+
+.profile-link a{
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    font-size: 13px;
+}
+.profile-link a img{
+    width: 20px;
+    margin-right: 10px;
+
+}
+
+.activity{
+    background: #fff;
+    padding: 5px 25px;
+    margin: 12px 0;
+
+}
+.activity h3{
+    color: #045be6;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 20px 0 10px;
+}
+
+.activity a{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 500;
+    color: #888;
+    margin: 3px 0;
+}
+a
+
+/* -------------------------------------END of left container ------------------------------------ */
+
+
+/* -------------------------------------- START of right container ------------------------------- */
+
+.right-container{
+    flex-basis: 25%;
+    align-self: flex-start;
+    border-radius: 8px
+
+}
+
+.news{
+    background: #fff;
+    padding: 10px 25px;
+    width: 300px;
+}
+.news span{
+    font-size: 12px;
+    color: #777;
+}
+.news h3{
+    font-size: 20px;
+
+}
+
+.news ul{
+    color: #222;
+}
+.info-icon{
+    width: 25px;
+    float: right;
+    margin-top: 1px;
+}
+.course{
+    background: #fff;
+    padding: 10px 25px;
+    width: 300px;
+    margin-top: 10px;
+    
+}
+
+.feed{
+    background: #fff;
+    padding: 10px 25px;
+    width: 300px;
+    margin-top: 10px;
+    
+    
+}
+
+.first-feed{
+    border-bottom: 1px solid #bdbdbd;
+
+}
+
+.unilever{
+    display: flex;
+    
+}
+
+.unilever span{
+    font-size: 10px;
+    color: #777;
+   
+}
+
+.follow{
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #3a3a3a;
+    border-radius: 15px;
+    width: 150px;
+    height: 25px;
+    margin-left: 45px;
+    margin-bottom: 5px;
+
+}
+.follow h4{
+    align-items: center;
+    justify-content: center;
+    margin-left: 35px;
+    
+}
+
+.linkedin{
+    display: flex;
+
+}
+
+.linkedin span{
+    font-size: 10px;
+    color: #777;
+}
+
+.second-feed{
+    border-bottom: 1px solid #bdbdbd;
+}
+
+.myntra{
+    display: flex;
+}
+
+.myntra img{
+    width: 50px;
+}
+
+.myntra span{
+    font-size: 10px;
+    color: #777;
+}
+
+/* -------------------------------------END of right container ------------------------------------- */
+
+
+
+/* ----------------------------------------- START of center container ------------------------------ */
+
+
+
+.center-container{
+    flex-basis: 47%;
+
+
+
+}
+
+.post{
+    background: #fff;
+    border-radius: 8px;
+    
+}
+
+.start-post {
+    padding: 20px 25px 10px;
+    display: flex;
+    align-items: flex-start;
+}
+.start-post img{
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.start-post textarea{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    resize: none;
+    background: transparent;
+    margin-top: 8px;
+}
+
+.post-link{
+    display: flex;
+    align-items: flex-start;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px;
+    
+}
+
+.media{
+    display: flex;
+    align-items: center;
+}
+.event{
+    display: flex;
+    align-items: center;
+}
+.article{
+    display: flex;
+    align-items: center;
+}
+
+.post-myntra{
+    background: #fff;
+    padding: 20px 25px 5px;
+    margin: 5px 0 15px;
+}
+
+.post-profile{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.post-profile img{
+    margin-top: 3px;
+    width:100px;
+}
+.virat{
+    width: 100%;
+    padding: 0;
+}
+
+.status-1{
+    display: flex;
+}
+
+.dhoni{
+    width: 100%;
+    padding: 0;
+}
+/* ----------------------------------------- END of center container --------------------------------- */

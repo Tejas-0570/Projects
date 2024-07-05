@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+ <!-- ------------------------------------------------- Home page and Navbar Start ---------------------------------------------- -->
+
+    <div class="container">
+        <div class="sub-container">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="heading">
+                <div class="first">
+                    <h2>Hi I'm </h2>
+                    <h1><span>Tejas Waydande</span></h1>
+                    <h3>Full Stack Developer</h3>
+                </div>
+                <div class="second">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+ <!-- ------------------------------------------------- Home page and Navbar Start ---------------------------------------------- -->
+
+
+
+
+<!-- ------------------------------------------------- About Section Start ---------------------------------------------- -->
+
+    <div class="about" id="about">
+        <div class="container1">
+            <div class="row">
+                <div class="col-1">
+                 
+
+                </div>
+                <div class="col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Hello, I'm Tejas Waydande, a Computer Science and Engineering student with a passion for web development. Currently pursuing my degree, I've immersed myself in the world of programming languages HTML, CSS, JavaScript, and C. <br> <br>One of my proudest moments was participating in 'Hack X Spirit', where I showcased my skills and creativity. I earned a certificate of completion for HTML and CSS, affirming my dedication to continuous learning and improvement. <br><br>Ready to embark on a digital journey together? Let's connect and explore the possibilities!
+                    </p>
+
+                    <div class="links">
+                        <p class="tab-link active-link " onclick="opentab('skills')">Skills</p>
+                        <p class="tab-link" onclick="opentab('experiance')">Experience</p>
+                        <p class="tab-link" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br> Experienced in building dynamic and responsive web applications, with a focus on front-end development.</li>
+                            <li><span>Programming Languages</span><br>Proficient in languages such as HTML, CSS, JavaScript, and C.</li>
+                            <li><span>Adaptability</span><br>Quick learner with a knack for adapting to new technologies and frameworks in the rapidly evolving field of web development.</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-content"  id="experiance" >
+                       <ul>
+                        <li><span>1.</span><br>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
+                        <li><span>2.</span><br>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
+                        <li><span>3.</span><br>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
+                       </ul>
+                    </div>
+
+                    <div class="tab-content" id="education" >
+                        <ul>
+                            <li><span>2026</span><br>CSE B.Tech form SVERI's College of Engineering</li>
+                            <li><span>2021</span><br>HSC from KBP college Pandharpur</li>
+                            <li><span>2019</span><br>SSC from MSSM Vidyalay</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+<!-- ------------------------------------------------- About Section End ---------------------------------------------- -->
+
+
+<!-- ------------------------------------------------- Services Section Start ---------------------------------------------- -->
+
+<div class="Services" id="services">
+    <div class="ser-container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="services-list">
+            
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+
+<!-- ------------------------------------------------- Services Section End ---------------------------------------------- -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+
+        var tablink = document.getElementsByClassName("tab-link");
+        var tabcontent = document.getElementsByClassName("tab-content");
+
+        function opentab(tabname){
+            for(tablinks of tablink){
+                tablinks.classList.remove("active-link")
+            }
+
+            for(tabcontents of tabcontent){
+                tabcontents.classList.remove("active-tab")
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+</html>

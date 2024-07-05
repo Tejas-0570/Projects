@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --text-color:#648880;
+    --bgcolor: #293F50;
+}
+
+.name{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 200px 36px 200px;
+    background-color: var(--bgcolor);
+    width: 100%;
+    color: #fff;
+}
+
+.name nav li:hover{
+    color: var(--text-color);
+
+}
+.sub-content{
+    float: right;
+    margin-top: 40px;
+}
+
+.date{
+    color: var(--text-color);
+}
+
+h1{
+    margin:0 0 0 50px;
+    font-size: 50px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 40px;
+}
+
+h3{
+    text-align: right;
+    margin-right: 50px;
+}
+
+nav ul{
+    display: flex;
+    margin-top: 20px;
+    list-style: none;
+}
+
+nav ul:last-child{
+    padding-right: 40px;
+}
+
+nav ul li{
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.first-container{
+    background-color: var(--bgcolor);
+    color: #fff;
+    text-align: center;
+    padding: 20px 80px 60px 8px;
+    line-height: 50px;
+
+}
+
+h2{
+    color: var(--text-color);
+    font-size: 35px;
+}
+.info{
+    font-size: 25px;
+}
+
+.first-container a{
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 4px;
+
+}
+.first-container a:hover{
+    background-color: #fff;
+    color: var(--text-color);
+}
+
+.second-container{
+    padding: 60px 0 40px 0;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px 0 20px;
+    gap: 15px;
+    
+}
+
+.item{
+    display: inline-block;
+    line-height: 20px;
+}
+
+img{
+    border-radius: 7px;
+    grid-area: auto;
+}
+h4{
+    padding:20px 0 20px 0;
+    color: gray;
+}
+.content p{
+    color: gray;
+}
+
+
+footer{
+    background-color: var(--bgcolor);
+    color: #fff;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.foot small{
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 50px;
+}
